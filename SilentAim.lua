@@ -240,7 +240,7 @@ local function getClosestPlayer()
 end
 
 -- ui creating & handling
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xaxaxaxaxaxaxaxaxa/Libraries/main/UI's/Linoria/Source.lua"))()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Young-Prodigy/CS-Prison-Life/main/UI%20lib.lua"))()
 
 local Window = Library:CreateWindow("Universal Silent Aim by The Goat: Not30FPS")
 local GeneralTab = Window:AddTab("General")
