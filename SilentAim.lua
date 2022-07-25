@@ -10,7 +10,7 @@ end
 local SilentAimSettings = {
     Enabled = false,
     
-    ClassName = "Universal Silent Aim - Averiias, Stefanuk12, xaxa",
+    ClassName = "Universal Silent Aim - The Goat: Not30FPS",
     ToggleKey = "RightAlt",
     
     TeamCheck = false,
@@ -242,7 +242,7 @@ end
 -- ui creating & handling
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xaxaxaxaxaxaxaxaxa/Libraries/main/UI's/Linoria/Source.lua"))()
 
-local Window = Library:CreateWindow("Universal Silent Aim, by Averiias, xaxa, and Stefanuk12")
+local Window = Library:CreateWindow("Universal Silent Aim by The Goat: Not30FPS")
 local GeneralTab = Window:AddTab("General")
 local MainBOX = GeneralTab:AddLeftTabbox("Main") do
     local Main = MainBOX:AddTab("Main")
