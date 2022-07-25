@@ -1,3 +1,11 @@
+if not game:IsLoaded() then 
+    game.Loaded:Wait()
+end
+
+if not syn or not protectgui then
+    getgenv().protectgui = function() end
+end
+
 if game.PlaceId == 8278412720 then 
         game:GetService("ProximityPromptService").PromptButtonHoldBegan:Connect(function(prompt)
        prompt.HoldDuration = -0
